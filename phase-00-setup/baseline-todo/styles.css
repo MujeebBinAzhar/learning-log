@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  position: relative;
+}
+.container .todo-list {
+  min-width: 80rem;
+  background-color: #fff;
+  padding: 2rem;
+}
+.container .todo-list .single-todo .todo-content {
+  background-color: #9ed7f3;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+.container .todo-list .single-todo .todo-actions {
+  display: flex;
+  gap: 1rem;
+}
+.container .todo-list .single-todo .todo-actions .delete {
+  padding: 0.5rem 1rem;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+}
+.container .todo-list .single-todo .todo-actions .edit {
+  padding: 0.5rem 1rem;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+}
+.container .todo-list .single-todo .todo-actions .mark-done {
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+}
+.container .todo-form {
+  width: 80rem;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.container .todo-form .field-container {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.container .todo-form .field-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.container .todo-form .field-container input[type=text] {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+.container .todo-form .field-container textarea {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  width: 100%;
+  min-height: 5rem;
+}
+.container .todo-form .field-container button {
+  padding: 0.5rem 1rem;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+}
+.container .todo-form button {
+  padding: 0.5rem 1rem;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+}/*# sourceMappingURL=styles.css.map */
